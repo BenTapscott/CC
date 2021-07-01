@@ -26,6 +26,6 @@ cmap = sns.diverging_palette(230, 20, as_cmap=True)
 # Draw the heatmap with the mask and correct aspect ratio
 sns.heatmap(corr, mask=mask, cmap=cmap, annot = True, vmax=.3, center=0, square=True, linewidths=.5, cbar_kws={"shrink": .5})
 
-plt.title("Diagonal Correlation Matrix 1", fontsize=30)
+plt.title("Diagonal Correlation Matrix 2", fontsize=30)
 #plt.show()
 st.pyplot(f)
