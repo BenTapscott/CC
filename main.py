@@ -4,8 +4,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
 
-df = pd.read_csv('https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv')
+#df = pd.read_csv('https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv')
 
+df = pd.read_csv('cars.csv')
 # It is necessary to remove whitespace (and the fullstop)
 
 df['continent'] = df['continent'].str.strip()
